@@ -1,0 +1,71 @@
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+input[type="number"]:hover{
+    background-color: lightblue;
+    color: black;
+    box-shadow: gray;
+    border-radius: 25px;
+}
+.bgcolor{
+    background-image: url("https://img.freepik.com/free-vector/cartoon-style-realistic-vector-icon-cold-thermometer-snow_134830-1448.jpg?size=626&ext=jpg&ga=GA1.1.259848515.1693118840&semt=ais");
+    background-size: cover;
+    height: 200vh;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+.head{
+    color: blue;
+    margin: 50px;
+    margin-left: 120px;
+}
